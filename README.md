@@ -1,7 +1,7 @@
 # vscode-ipython-tricky
 come on baby
 
-## 1. Only the first line is run in the ipython terminal??
+## 1. Only the first selected line is run in the ipython terminal??
 Solution:
 1. Download extension: macros
 2. Edit 'settings.json'
