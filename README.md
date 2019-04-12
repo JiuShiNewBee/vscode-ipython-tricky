@@ -26,7 +26,7 @@ Solution:
 4. If it does not work, I do not know :) 
    It works for me.
 
-## 2. Matlab deep licker? however your money is robbed?
+## 2. Matlab deep dog-licker? however your money is robbed?
 Solution:
 1. Download vscode
 2. Download ipython
