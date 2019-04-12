@@ -1,7 +1,7 @@
 # vscode-ipython-tricky
 come on baby
 
-## 1. Only first line is run in the ipython terminal??
+## 1. Only the first line is run in the ipython terminal??
 Solution:
 1. Download extension: macros
 2. Edit 'settings.json'
@@ -23,5 +23,5 @@ Solution:
         "command":"macros.runSelIpython",
     }
 ```
-4. If it does not work, I do not know :)
+4. If it does not work, I do not know :) \n
    It works for me.
