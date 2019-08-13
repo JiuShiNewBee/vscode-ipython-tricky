@@ -25,7 +25,22 @@ Solution:
 ```
 4. If it does not work, I do not know :) 
    It works for me.
-
+   
+##### 1. does not work for the new python version?  
+Solution:
+Try multi-command:
+```json
+    "multiCommand.commands": [
+        {
+            "command": "multiCommand.run",
+            "sequence": [
+                "editor.action.clipboardCopyAction",  
+                "workbench.action.terminal.paste", 
+                {"command": "workbench.action.terminal.sendSequence", "args": {"text": "\u000d"}},
+            ]
+        }
+    ],
+```
 ## 2. Matlab deep dog-licker? however your money is robbed?
 Solution:
 1. Download vscode
